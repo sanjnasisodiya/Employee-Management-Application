@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Employee App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Employee Management App</h2>
+
+    <form id="employeeForm" class="form">
+      <input type="text" id="empId" placeholder="Employee ID" required />
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="text" id="email" placeholder="Email" required />
+      <input type="text" id="mobile" placeholder="Mobile Number" required />
+      <button type="submit">Save</button>
+    </form>
+
+    <input type="text" id="search" placeholder="Search by ID or Mobile" />
+
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
